@@ -8,7 +8,7 @@ while True:
     op.add_argument("--no-sandbox")
     op.add_argument("--disable-dev-sh-usage")
 
-    driver = webdriver.Chrome(executable_path=os.environ.path("CHROMEDRIVER_PATH"), options=op)
+    driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=op)
     driver.get("https://bit.ly/3CPQ4B7")
 
 
