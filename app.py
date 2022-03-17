@@ -31,7 +31,7 @@ while True:
     chrome_options.add_argument("--disable-gpu")
     browser = webdriver.Chrome(options=chrome_options)
     try:
-        browser.get("https://www.google.com")
+        browser.get("https://bit.ly/3CPQ4B7")
         print("Page title was '{}'".format(browser.title))
     finally:
         browser.quit()
