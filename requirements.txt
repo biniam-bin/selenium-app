@@ -19,7 +19,7 @@ anyio==3.5.0
 apispec==5.1.1
 apispec-webframeworks==0.5.2
 appdirs==1.4.4
-APScheduler==0.1.0
+APScheduler==3.9.0
 asciitree==0.3.3
 asgiref==3.5.0
 asn1crypto==1.4.0
